@@ -47,8 +47,22 @@ main {
     padding: 50px 8vw;
 }
 
-main > div {
-    background-color: red;
+main > div.textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+
     width: 50%;
+}
+
+main > div.textBox > h2 {
+    font-size: 3em;
+    line-height: 1.2em;
+}
+
+main > div.textBox > h2 span {
+    color: var(--green);
+    font-weight: 900;
 }
 
