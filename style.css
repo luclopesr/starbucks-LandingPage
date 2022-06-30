@@ -44,7 +44,9 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 20px;
-    padding: 20px 8vw;
+    padding: 20px 8vw 5px 8vw;
+
+    min-height: 100%;
 }
 
 main > div.textBox {
