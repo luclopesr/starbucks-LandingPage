@@ -43,8 +43,8 @@ header ul a:hover {
 main {
     display: flex;
     justify-content: space-between;
-    gap: 50px;
-    padding: 50px 8vw;
+    gap: 20px;
+    padding: 20px 8vw;
 }
 
 main > div.textBox {
@@ -53,16 +53,38 @@ main > div.textBox {
     justify-content: center;
     gap: 8px;
 
-    width: 50%;
+    width: 600px;
 }
 
 main > div.textBox > h2 {
-    font-size: 3em;
-    line-height: 1.2em;
+    font-size: 4em;
+    line-height: 1.4em;
+    font-weight: 500;
 }
 
 main > div.textBox > h2 span {
     color: var(--green);
     font-weight: 900;
+    font-size: 1.2em;
+}
+
+main > div.textBox > a {
+    padding: 8px 20px;
+    width: fit-content;
+
+    color: white;
+    background-color: var(--green);
+
+    font-weight: 500;
+    border-radius: 40px;
+    text-decoration: none;
+}
+
+main > .imgBox {
+    padding-right: 50px;
+}
+
+main > .imgBox img{
+    max-width: 325px;
 }
 
